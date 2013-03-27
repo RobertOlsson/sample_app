@@ -11,6 +11,7 @@ group :development, :test do
   gem 'libnotify', '0.5.9'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'annotate', '2.5.0'
 end
 
 # Test gems on Linux
