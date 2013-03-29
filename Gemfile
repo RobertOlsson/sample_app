@@ -16,11 +16,6 @@ group :development, :test do
   gem 'annotate', '2.5.0'
 end
 
-# Test gems on Linux
-group :test do
-  gem 'capybara', '1.1.2'
-end 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -35,7 +30,8 @@ group :test do
   gem 'capybara', '1.1.2'
   # System-dependent gems
   gem 'factory_girl_rails', '4.1.0'
-
+  gem 'cucumber-rails', '1.2.1', :require => false
+  gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
